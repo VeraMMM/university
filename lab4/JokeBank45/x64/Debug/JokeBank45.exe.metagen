@@ -1,0 +1,62 @@
+  JokeBank45.AddConMan.resources - Embedded, ContainedInManifestFile, 
+  JokeBank45.MyForm.resources - Embedded, ContainedInManifestFile, 
+  JokeBank45.MyForm2.resources - Embedded, ContainedInManifestFile, 
+  JokeBank45.MyForm3.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly JokeBank45, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class JokeBank45.ManagedContributor: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Double Size 'get set' : 
+    Int32 Age  'get set' : 
+    System.String Name 'get set' : 
+  Methods:
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    set_Name(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Age(): PrivateScope, Public, HideBySig, SpecialName
+    set_Age(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Size(): PrivateScope, Public, HideBySig, SpecialName
+    set_Size(Double): PrivateScope, Public, HideBySig, SpecialName
+Class JokeBank45.DataManager: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Properties:
+    JokeBank45.DataManager Instance 'get ' : 
+  Methods:
+    get_Instance(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AddContributor(String, Int32): PrivateScope, Public, HideBySig
+    GetContributor(Int32): PrivateScope, Public, HideBySig
+    GetContributorCount(): PrivateScope, Public, HideBySig
+    FindContributorByName(String): PrivateScope, Public, HideBySig
+    GetAllContributors(): PrivateScope, Public, HideBySig
+    RemoveContributor(Int32): PrivateScope, Public, HideBySig
+    RemoveContributorByName(String): PrivateScope, Public, HideBySig
+    UpdateContributor(Int32, String, Int32, Double): PrivateScope, Public, HideBySig
+Class JokeBank45.AddConMan: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class JokeBank45.MyForm2: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class JokeBank45.MyForm3: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class JokeBank45.EditContributorForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class JokeBank45.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ReturnToMainMenu(): PrivateScope, Public, HideBySig
